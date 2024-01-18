@@ -3,7 +3,7 @@
 using R5T.T0142;
 
 
-namespace R5T.N0000
+namespace R5T.T0221
 {
     [DataTypeMarker]
     public class FileCopyPair

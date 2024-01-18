@@ -3,7 +3,7 @@ using System;
 using R5T.T0142;
 
 
-namespace R5T.N0000
+namespace R5T.T0221
 {
     /// <summary>
     /// For types with an element type (<see cref="Type.HasElementType"/>, like array, pointer, or reference), this flags enumeration describes the relationship.

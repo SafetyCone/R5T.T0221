@@ -2,8 +2,6 @@ using System;
 
 using R5T.T0132;
 
-using R5T.N0000;
-
 
 namespace R5T.T0221
 {

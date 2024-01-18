@@ -5,7 +5,7 @@ using System.Linq;
 using R5T.T0142;
 
 
-namespace R5T.N0000
+namespace R5T.T0221
 {
     /// <summary>
     /// Solves a problem that asynchronous (async) methods cannot use out parameters.

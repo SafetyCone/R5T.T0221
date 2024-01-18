@@ -1,8 +1,7 @@
 ﻿using System;
 
 
-// Places in the N0000 namespace to allow easy rehoming of the type (avoids having to update all using namespace declarations across all files).
-namespace R5T.N0000
+namespace R5T.T0221
 {
     /// <summary>
     /// It can be unclear if a method requires a file path to exist or not.

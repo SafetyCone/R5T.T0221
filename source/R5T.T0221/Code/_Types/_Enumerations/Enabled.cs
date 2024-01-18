@@ -3,11 +3,11 @@ using System;
 using R5T.T0142;
 
 
-namespace R5T.N0000
+namespace R5T.T0221
 {
     /// <summary>
     /// A simple enabled/disabled toggle.
-    /// Disabled the default.
+    /// Disabled is the default.
     /// </summary>
     [DataTypeMarker]
     public enum Enabled
