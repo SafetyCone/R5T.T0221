@@ -9,6 +9,7 @@ using Instances = R5T.T0221.Instances;
 
 namespace System
 {
+    [Obsolete("See R5T.L0089.F000")]
     public static class WasFoundExtensions
     {
         public static bool AnyWereFound<T>(this IEnumerable<WasFound<T>> wasFounds)
@@ -188,6 +189,7 @@ namespace System
 
 namespace System.Linq
 {
+    [Obsolete]
     public static class WasFoundExtensions
     {
         public static WasFound<T> FindSingle<T>(this IEnumerable<T> items, Func<T, bool> predicate)

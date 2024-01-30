@@ -7,7 +7,7 @@ using R5T.T0132;
 
 namespace R5T.T0221
 {
-    [FunctionalityMarker]
+    [Obsolete("See R5T.L0089.F000"), FunctionalityMarker]
     public partial interface IWasFoundOperator : IFunctionalityMarker
     {
         public bool AnyNotFound<T>(IEnumerable<WasFound<T>> wasFounds)
