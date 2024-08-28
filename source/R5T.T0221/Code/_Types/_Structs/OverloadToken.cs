@@ -6,8 +6,10 @@ using R5T.T0142;
 namespace R5T.T0221
 {
     /// <summary>
+    /// <overload-token-description>
     /// A struct (so that no instance actually has to be created for out parameters), with a dummy type parameter (meant to specify the output type of the function),
     /// meant for use as an input argument to a function allowing for easy function overload specification.
+    /// </overload-token-description>
     /// If used as an "out" parameter, then it signifies the output type of the method is overloaded.
     /// If used as a regular input parameter, then it signifies the input type(s) of the method are overloaded.
     /// <para>
@@ -26,5 +28,11 @@ namespace R5T.T0221
     public readonly struct OverloadToken<T>
     {
         public static OverloadToken<T> Instance { get; } = new OverloadToken<T>();
+    }
+
+    [UtilityTypeMarker]
+    public readonly struct OverloadToken
+    {
+
     }
 }
