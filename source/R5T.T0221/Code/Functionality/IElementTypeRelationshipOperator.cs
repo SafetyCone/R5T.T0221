@@ -8,6 +8,10 @@ namespace R5T.T0221
     [FunctionalityMarker]
     public partial interface IElementTypeRelationshipOperator : IFunctionalityMarker
     {
+        /// <summary>
+        /// Appends element type marker tokens to the type name.
+        /// <para>Note: multiple type markers may be appended if the type has multiple relationships to its element type.</para>
+        /// </summary>
         public string Append_ElementTypeRelationshipMarkers(
             string typeName,
             ElementTypeRelationships elementTypeRelationships,
