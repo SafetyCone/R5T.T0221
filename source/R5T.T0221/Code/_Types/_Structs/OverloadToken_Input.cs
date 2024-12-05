@@ -22,4 +22,10 @@ namespace R5T.T0221
     {
         public static OverloadToken_Input<T> Instance { get; } = new OverloadToken_Input<T>();
     }
+
+    [UtilityTypeMarker]
+    public readonly struct OverloadToken_Input<T1, T2>
+    {
+        public static OverloadToken_Input<T1, T2> Instance { get; } = new OverloadToken_Input<T1, T2>();
+    }
 }
