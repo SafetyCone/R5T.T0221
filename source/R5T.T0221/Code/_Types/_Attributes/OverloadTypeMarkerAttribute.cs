@@ -1,5 +1,7 @@
 ﻿using System;
 
+using F10Y.T0011;
+
 using R5T.T0143;
 
 
@@ -11,6 +13,7 @@ namespace R5T.T0221
     /// </summary>
     [AttributeUsage(AttributeTargets.Struct, AllowMultiple = false, Inherited = false)]
     [MarkerAttributeMarker]
+    [InstanceIdentity("9F91073D-176E-4848-B99D-711DFAC78E81")]
     public class OverloadTypeMarkerAttribute : Attribute,
         IMarkerAttributeMarker
     {
